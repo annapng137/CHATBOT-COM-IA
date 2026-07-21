@@ -3,9 +3,7 @@ import streamlit as st
 from openai import OpenAI
 
 
-modelo_ia ="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"
-
-st.write ("# Chatbot com IA")
+modelo_ia = OPENAI_API_KEY
 
 if  not "lista_mensagens" in st.session_state:
     st.session_state ["lista_mensagens"] = [] 
