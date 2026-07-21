@@ -1,11 +1,9 @@
 import os
 import streamlit as st
 from openai import OpenAI
-from dotenv import load_dotenv
 
-load_dotenv ()
 
-modelo_ia = OpenAI(api_key=os.getenv ("OPENAI_API_KEY") )
+modelo_ia ="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"
 
 st.write ("# Chatbot com IA")
 
