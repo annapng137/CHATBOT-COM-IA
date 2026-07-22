@@ -5,6 +5,14 @@ from openai import OpenAI
 
 modelo_ia = OpenAI ()
 
+st.set_page_config(
+    page_title="Chatbot IA",
+    page_icon="🤖",
+    layout="centered"
+)
+
+st.title("🤖 Chatbot com Inteligência Artificial")
+
 if  not "lista_mensagens" in st.session_state:
     st.session_state ["lista_mensagens"] = [] 
 
