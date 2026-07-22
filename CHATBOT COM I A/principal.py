@@ -3,7 +3,7 @@ import streamlit as st
 from openai import OpenAI
 
 
-modelo_ia = OPENAI_API_KEY
+modelo_ia = OpenAI ()
 
 if  not "lista_mensagens" in st.session_state:
     st.session_state ["lista_mensagens"] = [] 
